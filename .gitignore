@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.tmp
+uploads/*
+!uploads/.gitkeep
+system/cache/*
+!system/cache/index.html
+vendor/
+node_modules/
+

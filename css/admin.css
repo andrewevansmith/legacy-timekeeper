@@ -1,0 +1,52 @@
+
+      .clear {clear: both;}
+      aside { width: 200px; float: left; margin-right: 50px; }
+      aside li { padding: 5px; width: 100px; font-size: 11px; font-weight: bold; margin: 5px; }
+      div#main { width: 600px; float: left; }
+      div#main, aside { margin-top: 20px; }
+      ul.tools>li 
+      { 
+         float: left; 
+         width: 90px; 
+         height: 75px; 
+         margin: 10px; 
+         font-size: 11px; 
+         background: none; 
+         border: none; 
+      }
+      ul.tools li:hover { cursor: pointer; -webkit-box-shadow: none; }
+
+      ul.tools .hidden 
+      {
+         width: 400px;
+         min-height: 200px;
+         position: absolute;
+         left: 260px;
+         top: 200px;
+         border-radius: 10px;
+         background-color: #ddd;
+         border: 1px solid #aaa;
+         text-align: left !important;
+         padding: 12px;
+      }
+
+      .hidden h3 { text-align: center; margin-bottom: 10px;}
+      
+      input 
+      {
+         display: block;
+      }
+      
+      form>input { display: inline; border: none; }
+      .left { width: 180px; text-align: left; margin-right: 20px; }
+      .hidden img { border: 1px solid #888; text-align: left; margin: 0; padding: 0;}
+      .remove { color: #888; }
+      .remove:hover { color: red; }
+      .hidden li { background: none; border: none; text-shadow: none; padding: 0; margin: 5px;}
+
+
+      ul.tools 
+      {
+         background-color: #eee;
+         border: 1px solid #ccc;
+      }
