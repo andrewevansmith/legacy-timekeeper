@@ -463,7 +463,7 @@ if ( ! function_exists('http_build_query'))
 	}
 	
 	
-	// Helper helper.  Remind anyone of college?
+	// Compatibility helper.
 	// Required to handle recursion in nested arrays.
 	// 
 	// You could shave fractions of fractions of a second by moving where
